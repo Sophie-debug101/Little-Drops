@@ -1,0 +1,75 @@
+/* Calendar container */
+.calendar-wrapper {
+    width: 100%;
+}
+
+/* Main calendar box */
+.react-calendar {
+    border: none;
+    font-family: inherit;
+    border-radius: 20px;
+    padding: 10px;
+    background: white;
+}
+
+/* Navigation (month header) */
+.react-calendar__navigation {
+    display: flex;
+    margin-bottom: 10px;
+    font-family: "'Playfair Display', serif";
+    font-size: larger;
+    font-weight: bold;
+    color: #be185d;
+
+}
+
+.react-calendar__navigation button {
+    color: #be185d;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* Day tiles */
+.react-calendar__tile {
+    border-radius: 12px;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.react-calendar__tile:hover {
+    background: #fce7f3;
+}
+
+/* Selected day */
+.react-calendar__tile--active {
+    background: #ec4899 !important;
+    color: white;
+}
+
+/* Today highlight */
+.react-calendar__tile--now {
+    background: #fbcfe8;
+}
+
+
+
+.react-datepicker {
+    border-radius: 1rem;
+    border: 1px solid #fbcfe8;
+}
+
+.react-datepicker__header {
+    background-color: #fdf2f8;
+    border-bottom: 1px solid #fbcfe8;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__time-list-item--selected {
+    background-color: #ec4899 !important;
+}
+
+.react-datepicker__day:hover,
+.react-datepicker__time-list-item:hover {
+    background-color: #fce7f3 !important;
+}

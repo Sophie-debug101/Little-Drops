@@ -24,7 +24,8 @@ We will build a cross-platform digital planner that models daily, weekly, and mo
 ```
 
 
-[Describe your approach at a high level]
+
+
 
 ---
 
